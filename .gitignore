@@ -348,3 +348,9 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+BowlingApp/obj
+BowlingGame/obj
+BowlingTests/obj
+BowlingApp/obj/Debug
+BowlingTests/obj/Debug
+*.cache
