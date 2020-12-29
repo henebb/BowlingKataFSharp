@@ -1,8 +1,0 @@
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/bin/Debug/net5.0/BowlingGame.deps.json
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/bin/Debug/net5.0/BowlingGame.dll
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/bin/Debug/net5.0/BowlingGame.pdb
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/obj/Debug/net5.0/BowlingGame.fsprojAssemblyReference.cache
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/obj/Debug/net5.0/BowlingGame.AssemblyInfoInputs.cache
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/obj/Debug/net5.0/BowlingGame.AssemblyInfo.fs
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/obj/Debug/net5.0/BowlingGame.dll
-/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingGame/obj/Debug/net5.0/BowlingGame.pdb
