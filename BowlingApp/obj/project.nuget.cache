@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gPFLCGp9gZN9iZWCwfB2xgBU0wjcsSamFKecfD1P+DBKb+tc7ezkPMsM3Ye4MIN1do3dNWfHR1/Y+ZeJH/9YDQ==",
+  "success": true,
+  "projectFilePath": "/Users/henrike/Documents/repos/github/henebb/BowlingKataFSharp/BowlingApp/BowlingApp.fsproj",
+  "expectedPackageFiles": [
+    "/Users/henrike/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
