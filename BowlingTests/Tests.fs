@@ -49,3 +49,10 @@ type Tests(output : ITestOutputHelper) =
     let ``A perfect game``() =
         rollMany(12, 10)
         game.Score() |> should equal 300
+
+    [<Fact>]
+    let ``Ignore roll > 10``() =
+        game.Roll(11)
+        rollMany(19, 0)
+        game.Score() |> should equal 0
+        
