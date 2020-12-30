@@ -354,3 +354,6 @@ BowlingTests/obj
 BowlingApp/obj/Debug
 BowlingTests/obj/Debug
 *.cache
+.ionide
+BowlingGame/bin/Debug/net5.0
+BowlingTests/bin/Debug/net5.0
