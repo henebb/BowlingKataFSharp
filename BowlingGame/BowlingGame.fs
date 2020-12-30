@@ -1,19 +1,14 @@
 namespace BowlingGame
 
-type Game() =
+open System
+module Game =
 
-    let mutable currentRoll = 0
-    // Maximum of 21 rolls in a bowling game:
-    let rolls : int array = Array.zeroCreate 21 
-
-    member self.Roll(pins : int) =
-        rolls.[currentRoll] <- pins
-        currentRoll <- currentRoll + 1
-    
-
-    member self.Score() =
+    let score(rolls : int array) =
         let mutable rollIndex = 0
-        
+            
+        if rolls |> Array.length <> 21 then
+            raise <| ArgumentException("A game must constist of 21 rolls")
+
         let score =
             [|
                 // Ten frames in a bowling game:
@@ -31,6 +26,7 @@ type Game() =
                     | roll1, roll2, _ when roll1 <= 10 -> 
                         rollIndex <- rollIndex + 2
                         roll1 + roll2
+                    // Ignore any invalid roll (i.e. greater than 10)
                     | _, _, _ ->
                         ()
             |]
