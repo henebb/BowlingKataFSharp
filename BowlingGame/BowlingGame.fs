@@ -25,15 +25,14 @@ type Game() =
                         rollIndex <- rollIndex + 1
                         10 + firstRollAfterStrike + secondRollAfterStrike
                     // Spare?
-                    | 1, 9, rollAfterSpare | 2, 8, rollAfterSpare | 3, 7, rollAfterSpare | 4, 6, rollAfterSpare 
-                    | 5, 5, rollAfterSpare 
-                    | 9, 1, rollAfterSpare | 8, 2, rollAfterSpare | 7, 3, rollAfterSpare | 6, 4, rollAfterSpare ->
+                    | roll1, roll2, rollAfterSpare when roll1 + roll2 = 10 ->
                         rollIndex <- rollIndex + 2
                         10 + rollAfterSpare
-                    | roll1, roll2, _ -> 
-                        if roll1 <= 10 then
-                            rollIndex <- rollIndex + 2
-                            roll1 + roll2
+                    | roll1, roll2, _ when roll1 <= 10 -> 
+                        rollIndex <- rollIndex + 2
+                        roll1 + roll2
+                    | _, _, _ ->
+                        ()
             |]
             |> Array.sum
         score
