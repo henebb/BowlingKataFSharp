@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BowlingApp", "BowlingApp\BowlingApp.fsproj", "{8DEAB762-43CD-481F-9151-0864FB3C855D}"
-EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BowlingTests", "BowlingTests\BowlingTests.fsproj", "{0ED0F5DB-40B0-41AD-9D77-E2413B951A2E}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BowlingGame", "BowlingGame\BowlingGame.fsproj", "{2C1D48FD-7A96-4E77-979D-BB6A7B1AAEE9}"
